@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+      
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin-left: 450px;
+            margin-top:150px;
+        }
+        th, td {
+            padding: 20px; 
+            text-align: center; 
+            font-size: 20px;;
+          
+        }
+        thead {
+            background-color: yellow;
+        }
+        tbody tr:nth-child(1) {
+            background-color: yellow;
+        }
+        td[rowspan] {
+            background-color: rgb(201, 106, 196);
+        } 
+     
+</style>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="6">Final Examination Scheduke-Fall-2008</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background-color:yellow">
+                <th ></th>
+                <th>Monday<br>
+                     Dec.15</th>
+                <th>Tuesday <br>Dec.26</th>
+                <th>Wednesday <br>Dec.17</th>
+                <th>Thursday<br> Dec.18</th>
+                <th rowspan="5" style="background-color:rgb(201, 106, 196)">HOME</th>
+            </tr>
+            <tr>
+                <td style="background-color:rgb(145, 140, 208);" >8:00<br>a.m</td>
+                <td>Data <br>structures</td>
+                <td>Algorithms</td>
+                <td>Computer <br> Networks</td>
+                <td>DataBase<br> Systems</td>
+            </tr>
+            <tr>
+                <td style="background-color:rgb(145, 140, 208);">10:00<br>a.m</td>
+                <td>Operating <br>Systems</td>
+                <td>Artificial<br> Intelligence</td>
+                <td>Software<br> Engineering</td>
+                <td>Web <br> Development</td>
+            </tr>
+            <tr>
+                <td style="background-color:rgb(145, 140, 208);">1:00 p.m<br>a.m</td>
+                <td>Machine learning</td>
+                <td>Cyber security</td>
+                <td>Mobile Computing</td>
+                <td>Human-computing-Interaction</td>
+            </tr>
+            <tr>
+                <td style="background-color:rgb(145, 140, 208);" >3:00 p.m<br>a.m</td>
+                <td>Big Data Analytics</td>
+                <td>Cloud computing</td>
+                <td>parallel computing</td>
+                <td>Computer Graphics</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
